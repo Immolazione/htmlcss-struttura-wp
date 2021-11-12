@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .clearfix::after {
@@ -12,11 +13,59 @@
     display: table;
 }
 
+.margin-top {
+    margin-top: 20px;
+}
+
 /* UTILITIES */
 
 .container {
-    background-color: blue;
-    width: 80%;
+    background-color: grey;
+    width: 70%;
     height: 100vh;
     margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    height: 100px;
+    background-color: pink;
+}
+
+#explore {
+    height: 250px;
+    background-color: sandybrown;
+}
+
+#section-back {
+    background-color: blue;
+    height: 370px;
+}
+
+#section-back > div {
+    background-color: lightblue;
+}
+
+.header {
+    height: 50px;
+}
+
+.column {
+    width: calc(100% / 3);
+    height: 300px;
+    float: left;
+    margin: 10px 0;
+}
+
+.centre {
+    width: calc(100% / 3 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+footer {
+    height: 50px;
+    background-color: rebeccapurple;
+    margin-bottom: 20px;
 }
