@@ -1,3 +1,5 @@
+/* GENERICS */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +10,13 @@
     content: "";
     clear: both;
     display: table;
+}
+
+/* UTILITIES */
+
+.container {
+    background-color: blue;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
 }
